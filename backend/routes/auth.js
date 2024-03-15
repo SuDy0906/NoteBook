@@ -105,7 +105,8 @@ router.post('/getUser', fetchUser, async (req, res) => {
         res.status(500).send("Some error occured");
     }
 });
-    module.exports = router;
+    
+module.exports = router;
 
 
 
